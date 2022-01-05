@@ -26,9 +26,9 @@ public class Workshop11Application {
 		logger.info("Workshop 11");	
 		//init the spring app
 		SpringApplication app = new SpringApplication(Workshop11Application.class);
-		//decode teh java app args using spring args helper
+		//decode the java app args using spring args helper
 		DefaultApplicationArguments appArgs = new DefaultApplicationArguments(args);
-		//return the args from the java args asa list of strings  
+		//return the args from the java args as a list of strings  
 		List optsVal = appArgs.getOptionValues("port");
 		//var to hold up the port number to be passed on to the spring boot app
 		String portNumber = null;
